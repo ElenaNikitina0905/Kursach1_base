@@ -54,5 +54,4 @@ public class Employee {
     public String toString() {
         return lastName + " " + firstName + " " + middleName + ": отдел " + division + ", зарплата " + salary + ", id " + id;
     }
-
 }
