@@ -38,7 +38,9 @@ public class Employee {
         return salary;
     }
 
-    public static int getId() { return counter++; }
+    public static int getId() {
+        return counter++;
+    }
 
     public void setDivision(int division) {
         this.division = division;
